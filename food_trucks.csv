@@ -1,62 +1,62 @@
-FOOD_TRUCK_NAME,NORTH_SOUTH,EAST_WEST
-Aladdin Middle Eastern,33rd,Spruce
-Ali Baba,37th,Walnut
-B&J's Cart,33rd,Spruce
-Bento Box,37th,Walnut
-Bui's Lunch Truck,38th,Spruce
-Casablanca,35th/36th,Spruce
-Chris's,33rd,Spruce
-Curry on Wheels,37th,Walnut
-Double Dragon Chinese Food,33rd,Spruce
-Dulett's Jamaica Wings,38th,Walnut/Locust
-El Rosa,33rd,Walnut/Locust
-Food Truck at 33rd/Spruce,33rd,Spruce
-Food Truck at 34th/Walnut,34th,Walnut
-Frita's,33rd,Walnut/Locust
-Fruit Truck at 33rd/Spruce,33rd,Spruce
-Fruit Truck at 34th/Convention,34th,Convention
-Fruit Truck at 34th/Walnut,34th,Walnut
-Fruit Truck at 35th/Market,35th,Market
-Fruit Truck at 36th/Spruce,36th,Spruce
-Fruit Truck at 37th/Spruce,37th,Spruce
-George's,37th,Walnut
-GiGi's and Big R,38th,Spruce
-Gul's Breakfast and Lunch Cart,36th,Market
-Hanan House of Pita,38th,Walnut
-Hemo's at 37th/Spruce,37th,Spruce
-Hemo's at 38th/Walnut,38th,Walnut
-Honest Tom's Taco Shop,33rd,Arch
-Hong Kong Chinese Food,33rd,Spruce
-John's Lunch Cart,33rd,Spruce
-Khan Hotdog Cart,35th/36th,Spruce
-Kim's Oriental Food,37th,Walnut
-King's Wok,33th,Spruce
-KoJa,38th,Walnut
-La Dominique's Creperie,34th,Market
-Le Anh Chinese Food,36th,Spruce
-Lovash Indian Cuisine,37th,Spruce
-Lucky's Mexican Spot,37th,Spruce
-Lyn's,36th,Spruce
-Magic Carpet at 34th/Walnut,34th,Walnut
-Magic Carpet at 36th/Spruce,36th,Spruce
-Memo's Lunch Truck,33rd,Arch
-MexiCali,38th,Walnut
-MexiPhilly,37th,Spruce
-Mikey's Grill,34th,Market
-Oriental Fast Food,35th,Market
-Original Pizza Express,35th,Market
-Pete's Little Lunch Box,33rd,Lancaster
-Produce Truck at 40th/Locust,40th,Locust
-Rami's,40th,Locust
-Sandwich Cart at 35th/Market,35th,Market
-Sonic's,37th,Spruce
-Steak Queen,38th,Locust/Spruce
-Tacos Don Memo,38th,Walnut/Chestnut
-Tang Chinese Food,36th,Spruce
-The Crepewalk,35th/36th,Spruce
-The Real Le Anh,36th,Spruce
-Ton Ton's Japansese,35th,Market
-Troy Mediterranean at 38th/Spruce,38th,Spruce
-Troy Mediterranean at 40th/Spruce,40th,Spruce
-Vienna Beef House of Dogs,37th,Spruce
-Yue Kee,38th,Locust/Walnut
+FOOD_TRUCK_NAME,NORTH_SOUTH,EAST_WEST,LAT,LONG
+Aladdin Middle Eastern,33rd,Spruce,39.9503343,-75.1917158
+Ali Baba,37th,Walnut,39.9533907,-75.1967651
+B&J's Cart,33rd,Spruce,39.9503343,-75.1917158
+Bento Box,37th,Walnut,39.9533907,-75.1967651
+Bui's Lunch Truck,38th,Spruce,39.9512903,-75.19927679999999
+Casablanca,35th,Spruce,39.9625647,-75.1928099
+Chris's,33rd,Spruce,39.9503343,-75.1917158
+Curry on Wheels,37th,Walnut,39.9533907,-75.1967651
+Double Dragon Chinese Food,33rd,Spruce,39.9503343,-75.1917158
+Dulett's Jamaica Wings,38th,Walnut,39.9538768,-75.198191
+El Rosa,33rd,Walnut,39.952558,-75.1900448
+Food Truck at 33rd/Spruce,33rd,Spruce,39.9503343,-75.1917158
+Food Truck at 34th/Walnut,34th,Walnut,39.9528122,-75.192086
+Frita's,33rd,Walnut,39.952558,-75.1900448
+Fruit Truck at 33rd/Spruce,33rd,Spruce,39.9503343,-75.1917158
+Fruit Truck at 34th/Convention,34th,Convention,39.9580285,-75.1907008
+Fruit Truck at 34th/Walnut,34th,Walnut,39.9528122,-75.192086
+Fruit Truck at 35th/Market,35th,Market,39.7585229,-75.5269416
+Fruit Truck at 36th/Spruce,36th,Spruce,39.9507921,-75.1953032
+Fruit Truck at 37th/Spruce,37th,Spruce,39.95102869999999,-75.19727449999999
+George's,37th,Walnut,39.9533907,-75.1967651
+GiGi's and Big R,38th,Spruce,39.9512903,-75.19927679999999
+Gul's Breakfast and Lunch Cart,36th,Market,39.9561914,-75.19414309999999
+Hanan House of Pita,38th,Walnut,39.9538768,-75.198191
+Hemo's at 37th/Spruce,37th,Spruce,39.95102869999999,-75.19727449999999
+Hemo's at 38th/Walnut,38th,Walnut,39.9538768,-75.198191
+Honest Tom's Taco Shop,33rd,Arch,39.9576107,-75.1890751
+Hong Kong Chinese Food,33rd,Spruce,39.9503343,-75.1917158
+John's Lunch Cart,33rd,Spruce,39.9503343,-75.1917158
+Khan Hotdog Cart,35th,Spruce,39.9625647,-75.1928099
+Kim's Oriental Food,37th,Walnut,39.9533907,-75.1967651
+King's Wok,33th,Spruce,39.9503343,-75.1917158
+KoJa,38th,Walnut,39.9538768,-75.198191
+La Dominique's Creperie,34th,Market,39.955859,-75.1914436
+Le Anh Chinese Food,36th,Spruce,39.9507921,-75.1953032
+Lovash Indian Cuisine,37th,Spruce,39.95102869999999,-75.19727449999999
+Lucky's Mexican Spot,37th,Spruce,39.95102869999999,-75.19727449999999
+Lyn's,36th,Spruce,39.9507921,-75.1953032
+Magic Carpet at 34th/Walnut,34th,Walnut,39.9528122,-75.192086
+Magic Carpet at 36th/Spruce,36th,Spruce,39.9507921,-75.1953032
+Memo's Lunch Truck,33rd,Arch,39.9576107,-75.1890751
+MexiCali,38th,Walnut,39.9538768,-75.198191
+MexiPhilly,37th,Spruce,39.95102869999999,-75.19727449999999
+Mikey's Grill,34th,Market,39.955859,-75.1914436
+Oriental Fast Food,35th,Market,39.7585229,-75.5269416
+Original Pizza Express,35th,Market,39.7585229,-75.5269416
+Pete's Little Lunch Box,33rd,Lancaster,39.9564254,-75.18932810000001
+Produce Truck at 40th/Locust,40th,Locust,39.952977,-75.20282139999999
+Rami's,40th,Locust,39.952977,-75.20282139999999
+Sandwich Cart at 35th/Market,35th,Market,39.7585229,-75.5269416
+Sonic's,37th,Spruce,39.95102869999999,-75.19727449999999
+Steak Queen,38th,Locust,39.9512903,-75.19927679999999
+Tacos Don Memo,38th,Walnut,39.9538768,-75.198191
+Tang Chinese Food,36th,Spruce,39.9507921,-75.1953032
+The Crepewalk,35th,Spruce,39.9625647,-75.1928099
+The Real Le Anh,36th,Spruce,39.9507921,-75.1953032
+Ton Ton's Japansese,35th,Market,39.7585229,-75.5269416
+Troy Mediterranean at 38th/Spruce,38th,Spruce,39.9512903,-75.19927679999999
+Troy Mediterranean at 40th/Spruce,40th,Spruce,39.9517561,-75.2030736
+Vienna Beef House of Dogs,37th,Spruce,39.95102869999999,-75.19727449999999
+Yue Kee,38th,Locust,39.9512903,-75.19927679999999
