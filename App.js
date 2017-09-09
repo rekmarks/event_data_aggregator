@@ -10,7 +10,7 @@ const someGeocodes = [[39.950882, -75.192983, "Irvine Auditorium"],
                       [39.953907, -75.193101, "Penn Law"],
                       [39.953147, -75.198195, "John M Huntsman Hall"]]
 
-// main React situation happening right here friends 
+// main React situation happening right here friends
 export default class App extends Component {
 
   // setting the state for the mapRegion prop
@@ -39,6 +39,8 @@ export default class App extends Component {
       // in order to render the different "views" (i.e. pages) of your app,
       // much like a browser renders a webpage
 
+      // I believe View HTML elements are like pages on websites but
+      // don't quote me on that. You need to wrap everything else in them tho
       <View style={styles.container}>
 
       {/* Comments in here NEED to be wrapped like this*/}
