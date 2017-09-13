@@ -29,7 +29,6 @@ Information relevant to UPenn grad students (i.e. times and locations of free fo
 ## Installation
 
 App must currently be run through the Expo XDE: https://expo.io/tools
-Should work on both Android and iOS.
 
 ## API Reference
 
