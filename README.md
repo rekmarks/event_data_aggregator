@@ -7,7 +7,8 @@ This Expo/React Native mobile app will aggregate and display information from va
 
 ## Code Example
 
-This code programmatically generates Google Maps markers from a list of lists:
+This code (App.js) programmatically generates Google Maps markers from a list of lists:
+```
   {
     someGeocodes.map((elt) => (
       <MapView.Marker
@@ -19,6 +20,7 @@ This code programmatically generates Google Maps markers from a list of lists:
       </MapView.Marker>
     ))
   }
+```
 
 ## Motivation
 
