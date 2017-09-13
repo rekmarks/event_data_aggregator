@@ -33,7 +33,7 @@ Should work on both Android and iOS.
 
 ## API Reference
 
-https://expo.io
+https://docs.expo.io
 
 ## Tests
 
