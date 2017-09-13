@@ -10,7 +10,7 @@ const someGeocodes = [[39.950882, -75.192983, "Irvine Auditorium"],
                       [39.953907, -75.193101, "Penn Law"],
                       [39.953147, -75.198195, "John M Huntsman Hall"]]
 
-// main React situation happening right here friends
+// our App gets all this stuff
 export default class App extends Component {
 
   // setting the state for the mapRegion prop
@@ -28,29 +28,28 @@ export default class App extends Component {
     console.log(mapRegion);
   };
 
-  // very important render function
+  // critical render function
   // all our html etc goes in the parentheses of return
   render() {
     return (
 
-      // NOTE: NO JS ("//") COMMENTS WITHIN HTML
+      /* NOTE: NO JS ("//") COMMENTS WITHIN HTML
 
-      // Return takes a mix of HTML and React JavaScript (denoted by {})
-      // in order to render the different "views" (i.e. pages) of your app,
-      // much like a browser renders a webpage
+         Return takes a mix of HTML and React JavaScript (denoted by {})
+         in order to render the different "views" (i.e. pages) of your app,
+         much like a browser renders a webpage. */
 
-      // I believe View HTML elements are like pages on websites but
-      // don't quote me on that. You need to wrap everything else in them tho
+      /* From the React Native docs:
+         "[View is] the most fundamental component for building a UI" */
       <View style={styles.container}>
 
-      {/* Comments in here NEED to be wrapped like this*/}
+      {/* Comments in here NEED to be wrapped like this */}
 
         <Text> ~*~ Synergy ~*~ </Text>
         {/* We use the MapView COMPONENT to create maps in
             React Native. Components have PROPS that determine state/behavior,
             such as "style" and "region" below.
-            You CANNOT put comments inside HTML angle brackets (<>).
-          */}
+            You CANNOT put comments inside HTML angle brackets (<>). */}
         <MapView
           style={{ alignSelf: 'stretch', height: 200 }}
           region={this.state.mapRegion}
@@ -59,8 +58,7 @@ export default class App extends Component {
         >
 
           {/* Marker components are entered as children of MapView Components.
-              They're simply the map pins. This first one is static.
-            */}
+              They're simply the map pins. This first one is static. */}
           <MapView.Marker
             coordinate={{ latitude: this.state.mapRegion.latitude,
                           longitude: this.state.mapRegion.longitude }}
@@ -68,26 +66,23 @@ export default class App extends Component {
             identifier={'abc'}
           >
             {/* The Callout component is the little popup that appears above
-                the pins when you press them on your phone.
-              */}
+                the pins when you press them on your phone. */}
             <MapView.Callout>
               <Text>Hello!</Text>
             </MapView.Callout>
           </MapView.Marker>
 
-          {/* Here's an interesting piece of React JS.
+          {/* Here's an interesting piece of React.
               It calls the map method on the list of lists, someGeocodes.
               This loops/iterates through the elements of that (outer) list,
               which are themselves (inner) lists. Then, it generates Markers
               with Callout children using using the elements of the inner lists.
               This allows us to programatically put markers on the map without
-              hardcoding them, which of course is necessary for the app we have
-              in mind.
+              hardcoding them.
 
-              If we complete this, we will fetch data from our backend to
+              Ultimately, we will fetch data from our backend to
               construct our list of lists and use that to render even more
-              markers.
-            */}
+              markers. */}
           {
             someGeocodes.map((elt) => (
               <MapView.Marker
@@ -108,8 +103,6 @@ export default class App extends Component {
   }
 }
 
-// this badboy is just for the stylesheet, which is in CSS, just like
-// for a webpage
 const styles = StyleSheet.create({
   container: {
     flex: 1,
