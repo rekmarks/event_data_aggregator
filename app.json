@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "synergy-disruption",
-    "description": "An empty new project",
-    "slug": "synergy-disruption",
+    "name": "event-data-aggregator",
+    "description": "An aggregator and displayer of event data",
+    "slug": "event-data-aggregator",
     "privacy": "public",
     "sdkVersion": "20.0.0",
     "version": "1.0.0",

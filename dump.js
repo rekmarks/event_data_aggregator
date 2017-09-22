@@ -1,3 +1,5 @@
+//  RANDOM JS CRAP GOES IN THIS FILE
+
 {
   someGeocodes.map((elt) => (
     <MapView.Marker
