@@ -66,6 +66,7 @@ export default class App extends Component {
                           longitude: this.state.mapRegion.longitude }}
             pinColor={'#000000'}
             identifier={'abc'}
+            key="x"
           >
             {/* The Callout component is the little popup that appears above
                 the pins when you press them on your phone. */}
@@ -86,9 +87,10 @@ export default class App extends Component {
               construct our list of lists and use that to render even more
               markers. */}
           {
-            someGeocodes.map((elt) => (
+            someGeocodes.map((elt, i) => (
               <MapView.Marker
                 coordinate={{ latitude: elt[0], longitude: elt[1] }}
+                key={i}
               >
                 <MapView.Callout>
                   <Text>{elt[2]}</Text>
