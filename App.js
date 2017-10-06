@@ -85,7 +85,10 @@ export default class App extends Component {
 
               Ultimately, we will fetch data from our backend to
               construct our list of lists and use that to render even more
-              markers. */}
+              markers.
+
+              The second parameter to the .map refers to the index of elt.
+              */}
           {
             someGeocodes.map((elt, i) => (
               <MapView.Marker
